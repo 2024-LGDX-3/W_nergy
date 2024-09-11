@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>웹 카메라 사진 촬영</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<input type="file" id="image_input" accept="image/png, image/jpg">
+<div class="container">
+    <div class="logo"></div>
+    <h1>Glow RE</h1>
+    <video id="video" autoplay></video>
+    <button id="capture">사진 찍기</button>
 
-<div id="display_image"></div>
+    <!-- 사진 전송을 위한 폼 -->
+    <form id="uploadForm" >
+        <input type="submit" value="분석하기">
+    </form>
+
+    <div id="display_image"></div>
+</div>
 
 <script src="js/main.js"></script>
 </body>

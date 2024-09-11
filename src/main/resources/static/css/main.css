@@ -1,16 +1,63 @@
-body{
+/* 전체 페이지 스타일 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    flex-direction: column;
     height: 100vh;
+    background: radial-gradient(46% 29.61% at 50.66% 11.89%, white 0%, #E68679 49%, #F0E4FF 100%);
 }
 
-#display_image{
-    width: 375px;
-    height: 211px;
-    border: 1px solid palevioletred;
-    background-position: center;
-    background-size: cover;
+.container {
+    text-align: center;
+}
+
+.logo {
+    /* 여기에 LG전자 스타일의 로고 디자인 추가 */
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background: url('https://via.placeholder.com/100x50') no-repeat center center;
+    background-size: contain;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #E68679;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #d56f5b;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#display_image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
