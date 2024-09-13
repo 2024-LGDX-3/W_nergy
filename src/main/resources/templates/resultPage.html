@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Skin Analysis Result</title>
+</head>
+<body>
+<h1>Skin Analysis Result</h1>
+
+<div th:if="${response}">
+    <p>Analysis result from Flask API:</p>
+    <pre th:text="${response}"></pre> <!-- Flask API 응답을 출력 -->
+</div>
+
+<div th:if="${response == null}">
+    <p>No analysis result available. Please try again.</p>
+</div>
+
+<a href="/">Upload another image</a>
+</body>
+</html>

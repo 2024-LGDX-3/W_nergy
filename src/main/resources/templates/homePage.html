@@ -1,27 +1,85 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LG전자 스마트 미러</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>홈 & Glow RE</title>
+<!--    <link rel="stylesheet" href="/css/main.css">-->
+    <style>
+        /* 중앙 정렬을 위한 스타일 */
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        .container {
+            /* background-color: transparent; -- 배경 투명하게 */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #video {
+            width: 100%;
+            height: auto;
+        }
+
+        button, input[type="submit"] {
+            margin-top: 10px;
+            padding: 10px 20px;
+        }
+
+    </style>
+
+
+
 </head>
 <body>
+<div class="w_100" style="display: flex; height: 100%; background-image: url('icon/room.png');">
+    <div style="width: 70%; height: 5vh; display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 30px;">
+        <div style="width: 15%; color: #FFFFFF;">
+            <div>2023/09/09 MON</div>
+            <div>21:21</div>
+        </div>
+        <div style="width: 15%; display: flex; justify-content: space-between;">
+            <div style="display: flex; align-items: center; color: #FFFFFF;">
+                <img src="icon/temparature.png" alt="temperature">
+                <div>23℃</div>
+            </div>
+            <div style="display: flex; align-items: center; color: #FFFFFF;">
+                <img src="icon/weather.png" alt="weather">
+                <div>55%</div>
+            </div>
+        </div>
+        <div class="center-container">
+            <div class="container">
+                <div class="logo"></div>
+                <h1>Glow RE</h1>
+                <video id="video" autoplay></video>
+                <br>
+                <button id="capture">사진 찍기</button>
 
-<div class="container">
-    <div class="logo"></div>
-    <h1>Glow RE</h1>
-    <video id="video" autoplay></video> <br>
-    <button id="capture">사진 찍기</button>
+                <!-- 사진 전송을 위한 폼 -->
+                <form id="uploadForm">
+                    <input type="submit" value="분석하기">
+                </form>
 
-    <!-- 사진 전송을 위한 폼 -->
-    <form id="uploadForm"  >
-        <input type="submit" value="분석하기">
-    </form>
+                <div id="display_image"></div>
+            </div>
+        </div>
+    </div>
+    <div style="width: 30%; height: 100vh; display: flex; background: rgba(4, 11, 50, 0.6);">
 
-    <div id="display_image"></div>
+    </div>
 </div>
 
 <script src="js/main.js"></script>
 </body>
+
 </html>

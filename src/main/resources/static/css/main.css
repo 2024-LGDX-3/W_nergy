@@ -1,63 +1,101 @@
-/* 전체 페이지 스타일 */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: radial-gradient(46% 29.61% at 50.66% 11.89%, white 0%, #E68679 49%, #F0E4FF 100%);
-}
+/*!* 전체 페이지 스타일 *!*/
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    background: radial-gradient(46% 29.61% at 50.66% 11.89%, white 0%, #E68679 49%, #F0E4FF 100%);*/
+/*}*/
 
-.container {
-    text-align: center;
-}
+/*.container {*/
+/*    text-align: center;*/
+/*}*/
 
-.logo {
-    /* 여기에 LG전자 스타일의 로고 디자인 추가 */
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    background: url('https://via.placeholder.com/100x50') no-repeat center center;
-    background-size: contain;
-}
+/*.logo {*/
+/*    !* 여기에 LG전자 스타일의 로고 디자인 추가 *!*/
+/*    width: 100px;*/
+/*    height: 50px;*/
+/*    margin: 0 auto;*/
+/*    background: url('https://via.placeholder.com/100x50') no-repeat center center;*/
+/*    background-size: contain;*/
+/*}*/
 
-h1 {
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 20px;
-    font-family: 'Noto Sans', sans-serif;
-}
+/*h1 {*/
+/*    font-size: 3rem;*/
+/*    color: white;*/
+/*    margin-bottom: 20px;*/
+/*    font-family: 'Noto Sans', sans-serif;*/
+/*}*/
 
-video {
-    width: 100%;
-    max-width: 600px;
-    border: 2px solid #fff;
-    border-radius: 10px;
-}
+/*video {*/
+/*    width: 100%;*/
+/*    max-width: 600px;*/
+/*    border: 2px solid #fff;*/
+/*    border-radius: 10px;*/
+/*}*/
 
-button {
-    background-color: #E68679;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
+/*button {*/
+/*    background-color: #E68679;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    margin-top: 20px;*/
+/*    font-size: 1.2rem;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.3s, transform 0.2s;*/
+/*}*/
 
-button:hover {
-    background-color: #d56f5b;
-}
+/*button:hover {*/
+/*    background-color: #d56f5b;*/
+/*}*/
 
-button:active {
-    transform: scale(0.98);
-}
+/*button:active {*/
+/*    transform: scale(0.98);*/
+/*}*/
 
-#display_image img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
+/*#display_image img {*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+
+/*.w_100 { width: 100%; }*/
+/*.w_80 { width: 80%; }*/
+/*.w_75 { width: 75%; }*/
+/*.w_60 { width: 60%; }*/
+/*.w_40 { width: 40%; }*/
+/*.w_25 { width: 25%; }*/
+/*.w_20 { width: 20%; }*/
+
+/*.fw500_30_35 {*/
+/*    font-weight: 500;*/
+/*    font-size: 30px;*/
+/*    line-height: 35px;*/
+/*}*/
+
+/*.fw600_30_35 {*/
+/*    font-weight: 600;*/
+/*    font-size: 30px;*/
+/*    line-height: 35px;*/
+/*}*/
+
+/*.fw500_20_35 {*/
+/*    font-weight: 500;*/
+/*    font-size: 20px;*/
+/*    line-height: 35px;*/
+/*}*/
+
+/*.fw500_18_18 {*/
+/*    font-weight: 500;*/
+/*    font-size: 18px;*/
+/*    line-height: 18px;*/
+/*}*/
+
+

@@ -41,27 +41,38 @@ captureButton.addEventListener('click', () => {
 });
 
 // "분석하기" 버튼 클릭 시 이미지 캡처 및 전송
-uploadForm.addEventListener('submit', (event) => {
+uploadForm.addEventListener('submit', async (event) => {
     event.preventDefault();  // 폼의 기본 제출 동작 방지
 
     if (imageBlob) {
+        console.log("uploadform act")
         const formData = new FormData();
         formData.append('file', imageBlob, 'image.jpg');  // Blob 데이터를 FormData로 추가
 
         // 서버로 POST 요청 전송
-        fetch('http://127.0.0.1:5000/analyze', {
+        const response = await fetch('/smartMr/analyze-image', {
             method: 'POST',
             body: formData
-        })
-            .then(response => response.json())
-            .then(data => {
-                console.log('서버 응답:', data);
-                alert('분석 완료: ' + JSON.stringify(data));
-            })
-            .catch(error => {
-                console.error('파일 전송 실패:', error);
-            });
+        });
     } else {
         alert('사진을 먼저 캡처해주세요.');
     }
 });
+
+
+// // 서버로 POST 요청 전송
+// fetch('http://127.0.0.1:5000/analyze', {
+//     method: 'POST',
+//     body: formData
+// })
+//     .then(response => response.json())
+//     .then(data => {
+//         console.log('서버 응답:', data);
+//         alert('분석 완료: ' + JSON.stringify(data));
+//     })
+//     .catch(error => {
+//         console.error('파일 전송 실패:', error);
+//     });
+// } else {
+//     alert('사진을 먼저 캡처해주세요.');
+// }
