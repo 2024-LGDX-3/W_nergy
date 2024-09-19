@@ -20,10 +20,10 @@ Glow RE : 사용자의 피부 측정 결과를 시각적 데이터로 제공하�
 
 ## 5. 기술스택
 1) 언어 : Python, JAVA, HTML/CSS,
-2) 서비스 : OpenAI API
+2) 서비스 : OpenAI API, Rapid API
 3) 기타 - 개발툴 : Pycharm, Jupyter NoteBook
        - 서버 프레임워크 : Spring boot
-       - 데이터베이스 : Spring Data JPA, MySQL
+       - 데이터베이스 : Spring Data JPA, Oracle
 
 ## 6. 시스템 아키텍처
 
