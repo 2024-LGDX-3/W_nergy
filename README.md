@@ -19,6 +19,11 @@ Glow ME : 자동 얼굴 사진촬영을 통한 피부 상태 측정, 사용자�
 Glow RE : 사용자의 피부 측정 결과를 시각적 데이터로 제공하고 변화 여부 모니터링 및 피부일기 기록. 화장품, 관리샵의 맞춤형 후기 제
 
 ## 5. 기술스택
+1) 언어 : Python, JAVA, HTML/CSS,
+2) 서비스 : OpenAI API
+3) 기타 - 개발툴 : Pycharm, Jupyter NoteBook
+       - 서버 프레임워크 : Spring boot
+       - 데이터베이스 : Spring Data JPA, MySQL
 
 ## 6. 시스템 아키텍처
 
@@ -28,6 +33,11 @@ Glow RE : 사용자의 피부 측정 결과를 시각적 데이터로 제공하�
 
 
 ## 8. 서비스 흐름도
+
+![glowme](https://github.com/user-attachments/assets/c72b3f4d-9848-48ee-b7b9-a726bd673cb6)
+
+![glowre](https://github.com/user-attachments/assets/950d7864-81d4-40ee-b794-b5f210ff20cb)
+
 
 ## 9. ERD 다이어그램
 
