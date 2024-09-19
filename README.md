@@ -24,7 +24,8 @@ Glow RE : 사용자의 피부 측정 결과를 시각적 데이터로 제공하�
 
 ## 7. 유스케이스
 
-![오류](../path/to/Functional_Requirements.png)
+![Functional_Requirements](https://github.com/user-attachments/assets/fb5060f0-a5f8-495f-bd11-e3882334c68e)
+
 
 ## 8. 서비스 흐름도
 
