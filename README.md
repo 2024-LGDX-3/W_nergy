@@ -24,13 +24,13 @@ Glow RE : 사용자의 피부 측정 결과를 시각적 데이터로 제공하�
 
 ## 7. 유스케이스
 
-[Alt text](/path/to/img.png "Functional_Requirements")
+![오류](../path/to/Functional_Requirements.png)
 
 ## 8. 서비스 흐름도
 
 ## 9. ER 다이어그램
 
-[Alt text](/path/to/img.png "ERD")
+![오류](../path/to/ERD.png)
 
 ## 10. 화면구성
 
